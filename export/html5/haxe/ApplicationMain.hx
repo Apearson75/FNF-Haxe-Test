@@ -32,12 +32,12 @@ class ApplicationMain
 
 		ManifestResources.init(config);
 
-		app.meta["build"] = "97";
+		app.meta["build"] = "2";
 		app.meta["company"] = "HaxeFlixel";
 		app.meta["file"] = "BF Test";
 		app.meta["name"] = "BF Test";
 		app.meta["packageName"] = "com.phoneguy.flixeltest";
-		app.meta["version"] = "0.5";
+		app.meta["version"] = "0.6";
 
 		
 

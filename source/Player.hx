@@ -14,7 +14,6 @@ class Player extends FlxSprite
 		loadGraphic(AssetPaths.BOYFRIEND__png, true, w, l);
 		screenCenter();
 		animation.add("idle", [120], 7, true);
-		animation.add("up", [73], 7, false);
 		animation.play("idle");
 	}
 
@@ -23,21 +22,23 @@ class Player extends FlxSprite
 		if (FlxG.keys.justPressed.UP)
 		{
 			FlxG.sound.playMusic(AssetPaths.a__ogg, 1, false);
+			width = 369;
+			height = 446;
 		}
 
 		if (FlxG.keys.justPressed.DOWN)
 		{
-			FlxG.sound.playMusic(AssetPaths.o__mp3, 1, false);
+			FlxG.sound.playMusic(AssetPaths.o__ogg, 1, false);
 		}
 
 		if (FlxG.keys.justPressed.RIGHT)
 		{
-			FlxG.sound.playMusic(AssetPaths.i__mp3, 1, false);
+			FlxG.sound.playMusic(AssetPaths.i__ogg, 1, false);
 		}
 
 		if (FlxG.keys.justPressed.LEFT)
 		{
-			FlxG.sound.playMusic(AssetPaths.e__mp3, 1, false);
+			FlxG.sound.playMusic(AssetPaths.e__ogg, 1, false);
 		}
 
 		if (FlxG.keys.pressed.UP) {}

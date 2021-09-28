@@ -68,7 +68,7 @@ import sys.FileSystem;
 
 		#else
 
-		data = '{"name":null,"assets":"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y31:assets%2Fimages%2FBOYFRIEND.pngR2i5042658R3y5:IMAGER5R7R6tgoR0y31:assets%2Fimages%2FBOYFRIEND.xmlR2i68078R3R4R5R9R6tgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R10R6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R11R6tgoR2i8431R3y5:SOUNDR5y23:assets%2Fsounds%2Fa.oggy9:pathGroupaR13hR6tgoR2i3964R3y5:MUSICR5y23:assets%2Fsounds%2Fe.mp3R14aR16hR6tgoR2i4745R3R15R5y23:assets%2Fsounds%2Fi.mp3R14aR17hR6tgoR2i5267R3R15R5y23:assets%2Fsounds%2Fo.mp3R14aR18hR6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R19R6tgoR2i2114R3R15R5y26:flixel%2Fsounds%2Fbeep.mp3R14aR20y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R15R5y28:flixel%2Fsounds%2Fflixel.mp3R14aR22y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3R12R5R21R14aR20R21hgoR2i33629R3R12R5R23R14aR22R23hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R24R25y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R8R5R30R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R8R5R31R6tgh","rootPath":null,"version":2,"libraryArgs":[],"libraryType":null}';
+		data = '{"name":null,"assets":"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y31:assets%2Fimages%2FBOYFRIEND.pngR2i5042658R3y5:IMAGER5R7R6tgoR0y31:assets%2Fimages%2FBOYFRIEND.xmlR2i68078R3R4R5R9R6tgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R10R6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R11R6tgoR2i8431R3y5:SOUNDR5y23:assets%2Fsounds%2Fa.oggy9:pathGroupaR13hR6tgoR2i5878R3R12R5y23:assets%2Fsounds%2Fe.oggR14aR15hR6tgoR2i6940R3R12R5y23:assets%2Fsounds%2Fi.oggR14aR16hR6tgoR2i7015R3R12R5y23:assets%2Fsounds%2Fo.oggR14aR17hR6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R18R6tgoR2i2114R3y5:MUSICR5y26:flixel%2Fsounds%2Fbeep.mp3R14aR20y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R19R5y28:flixel%2Fsounds%2Fflixel.mp3R14aR22y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3R12R5R21R14aR20R21hgoR2i33629R3R12R5R23R14aR22R23hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R24R25y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R8R5R30R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R8R5R31R6tgh","rootPath":null,"version":2,"libraryArgs":[],"libraryType":null}';
 		manifest = AssetManifest.parse (data, rootPath);
 		library = AssetLibrary.fromManifest (manifest);
 		Assets.registerLibrary ("default", library);
@@ -102,9 +102,9 @@ null
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_images_images_go_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_music_music_goes_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_a_ogg extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_e_mp3 extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_i_mp3 extends null { }
-@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_o_mp3 extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_e_ogg extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_i_ogg extends null { }
+@:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_o_ogg extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_mp3 extends null { }
 @:keep @:bind @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_mp3 extends null { }
@@ -125,9 +125,9 @@ null
 @:keep @:file("assets/images/images-go-here.txt") @:noCompletion #if display private #end class __ASSET__assets_images_images_go_here_txt extends haxe.io.Bytes {}
 @:keep @:file("assets/music/music-goes-here.txt") @:noCompletion #if display private #end class __ASSET__assets_music_music_goes_here_txt extends haxe.io.Bytes {}
 @:keep @:file("assets/sounds/a.ogg") @:noCompletion #if display private #end class __ASSET__assets_sounds_a_ogg extends haxe.io.Bytes {}
-@:keep @:file("assets/sounds/e.mp3") @:noCompletion #if display private #end class __ASSET__assets_sounds_e_mp3 extends haxe.io.Bytes {}
-@:keep @:file("assets/sounds/i.mp3") @:noCompletion #if display private #end class __ASSET__assets_sounds_i_mp3 extends haxe.io.Bytes {}
-@:keep @:file("assets/sounds/o.mp3") @:noCompletion #if display private #end class __ASSET__assets_sounds_o_mp3 extends haxe.io.Bytes {}
+@:keep @:file("assets/sounds/e.ogg") @:noCompletion #if display private #end class __ASSET__assets_sounds_e_ogg extends haxe.io.Bytes {}
+@:keep @:file("assets/sounds/i.ogg") @:noCompletion #if display private #end class __ASSET__assets_sounds_i_ogg extends haxe.io.Bytes {}
+@:keep @:file("assets/sounds/o.ogg") @:noCompletion #if display private #end class __ASSET__assets_sounds_o_ogg extends haxe.io.Bytes {}
 @:keep @:file("assets/sounds/sounds-go-here.txt") @:noCompletion #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends haxe.io.Bytes {}
 @:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/4,9,0/assets/sounds/beep.mp3") @:noCompletion #if display private #end class __ASSET__flixel_sounds_beep_mp3 extends haxe.io.Bytes {}
 @:keep @:file("C:/HaxeToolkit/haxe/lib/flixel/4,9,0/assets/sounds/flixel.mp3") @:noCompletion #if display private #end class __ASSET__flixel_sounds_flixel_mp3 extends haxe.io.Bytes {}
