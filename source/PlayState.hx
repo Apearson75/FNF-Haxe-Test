@@ -14,7 +14,8 @@ class PlayState extends FlxState
 
 	function clickPlay()
 	{
-		FlxG.switchState(new PlayState());
+		final loading = new LoadingState();
+		openSubState(loading);
 	}
 
 	override public function create()
