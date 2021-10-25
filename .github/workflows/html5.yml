@@ -35,8 +35,8 @@ jobs:
             haxelib install openfl
             haxelib install flixel
             haxelib run lime setup flixel
-            y
             haxelib run lime setup
+            y
             lime build html5
         
 
