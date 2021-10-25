@@ -36,6 +36,8 @@ jobs:
             haxelib install flixel
             haxelib run lime setup flixel
             haxelib run lime build html5
-            dir
+            cd export
+            cd html5
+            cd bin
         
 
